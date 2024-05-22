@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>index</title>
+</head>
+<body>
+    <header class="partHeader">
+        <h1>ROCK-PAPER-SCISSOR</h1>
+    </header>
+    <main>
+
+        <section class="count">
+            <div class="counter" id="counter-user"></div>
+            <div class="counter" id="counter-cpu"></div>
+        </section>
+        
+        <section class="buttonsSection">
+
+            <section id="buttonsDiv">
+                <button class="buttons" id="btn0">piedra</button>
+                <button class="buttons" id="btn1">papel</button>
+                <button class="buttons" id="btn2">tijeras</button>
+            </section>
+            
+            <section>
+                <div id="divResult">
+                    <div id="result"></div>  
+                </div>
+                <div id="divWinnerSet">
+                    <div id="winnerSet"></div> 
+                </div>
+                    
+            </section>
+
+        </section>
+        
+        <section class="sectionWinner">
+            <div id="winGame"></div>
+        </section>
+    </main>
+    <script src="templates/game.js"></script>
+</body>
+</html>
